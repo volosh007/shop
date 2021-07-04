@@ -1,0 +1,104 @@
+.catalog
+    padding: 60px 0
+    .section-title
+        font-family: $in-bold
+        font-weight: 700
+        font-size: 30px
+        margin-bottom: 40px
+        color: $text
+    &__inner
+        display: flex
+        align-items: flex-start
+        justify-content: space-between
+    &__item
+    &__item-left
+        width: 24%
+        background-color: #FFF4EE
+        border-radius: 4px
+        min-height: 597px
+        padding: 20px
+    &__item-right
+        width: 74%
+        text-align: center
+        .grid
+            width: 100%
+            display: grid
+            grid-template-columns: repeat(3, 1fr)
+            grid-auto-rows: minmax(340px, auto)
+            grid-gap: 20px 
+            margin-bottom: 40px
+            text-align: left
+        .button-catalog
+            font-family: $in-reg
+            color: #fff
+            font-weight: 400
+            font-size: 16px
+            line-height: 16px
+            border-radius: 4px
+            background-color: $red
+            text-align: center
+            padding: 22px 47px
+            outline: none
+            border: none
+            display: inline-block
+            margin: 0 auto
+            cursor: pointer
+            transition: .4s ease
+            &:hover
+                transform: scale(1.05)
+        .item
+            overflow: hidden
+            &:nth-child(1)
+                grid-column: 1/2
+                grid-row: 1/2
+            &:nth-child(2)
+                grid-column: 2/3
+                grid-row: 1/2
+            &:nth-child(3)
+                grid-column: 3/4
+                grid-row: 1/2
+            
+            &:nth-child(4)
+                grid-column: 1/2
+                grid-row: 2/3
+            &:nth-child(5)
+                grid-column: 2/3
+                grid-row: 2/3
+            &:nth-child(6)
+                grid-column: 3/4
+                grid-row: 2/3
+            
+            &:nth-child(7)
+                grid-column: 1/2
+                grid-row: 3/4
+            &:nth-child(8)
+                grid-column: 2/3
+                grid-row: 3/4
+            &:nth-child(9)
+                grid-column: 3/4
+                grid-row: 3/4
+            .photo-inner
+                width: 100%
+                height: 280px
+                margin-bottom: 10px
+                background-color: #a8a8a8
+                overflow: hidden
+                border-radius: 4px
+                .img
+                    width: 100%
+                    height: 100%
+            .name
+                font-family: $in-book
+                font-weight: 400
+                font-size: 16px
+                line-height: 16px
+                color: $text
+                margin-bottom: 10px
+            .price
+                font-family: $in-reg
+                font-weight: 400
+                font-size: 20px
+                line-height: 20px
+                color: $text
+                
+            
